@@ -1,10 +1,3 @@
----
-title: Command
-draft: true
-description: Enige notities bij verkenning van de betekenis van het begrip 'command'
-preliminary: true
----
-
 # Command
 
 - Werkdefinitie: een command is een opdracht aan het register, aangeboden met de intentie daarin een verandering aan te brengen.
