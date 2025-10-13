@@ -29,7 +29,7 @@ let respecConfig = {
 //        companyURL: "https://vng.nl/artikelen/vng-realisatie",
 //      }
 //    ],
-  editors:
+  authors:
     [
       {
         name: "Marc van Andel",
