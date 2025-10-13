@@ -334,7 +334,7 @@ De meeste globaal gedefinieerd properties kunnen lokaal overruled worden zoals '
 			<td><a href="https://github.com/Logius-standaarden/respec/wiki/nl_organisationPublishURL">nl_organisationPublishURL</a></td>
 			<td>URL</td>
 			<td>Globaal en lokaal</td>
-			<td>https://vng-realisatie.github.io/publicatie</td>
+			<td>https://johanboer.github.io/Handreiking</td>
 			<td>Wordt gebruikt voor het genereren van de link naar de GitHub pages van de huidige, de vorige en de laatst gepubliceerde versie. Een link die leidt naar een document in 
 				de GitHub Pages interface van de 'publicatie' GitHub repository en zo gewenst de in de 'publicatie' repository gedefinieerde custom domain name.<br/><br/>
 				Kan worden gebruikt in de properties 'lastVersion', 'thisVersion' en 'prevVersion'.</td>
@@ -489,7 +489,8 @@ De meeste globaal gedefinieerd properties kunnen lokaal overruled worden zoals '
 			<td>Definieert het type van het Respec document. De te gebruiken types zijn gedefinieerd in de globale configuratie property 'localizationStrings'. Op dit moment zijn dat:
 				<ul>
 					<li><b>im</b>: Informatiemodel</li>
-            				<li><b>hl</b>: Handleiding</li>
+            		<li><b>hl</b>: Handleiding</li>
+					<li><b>pr</b>: Praktijkrichtlijn</li>
 				</ul><br/><br/>
 				Wordt gebruikt om de subtitel en het vertikale label linksboven te genereren. In het template heeft dit de waarde 'IM' aangezien we bij VNG-R Respec veelal zullen gebruiken om Informatiemodellen mee te publiceren.<br/><br/>
 				Kan evt. ook worden gebruikt in de properties 'latestVersion', 'thisVersion' en 'prevVersion'.</td>

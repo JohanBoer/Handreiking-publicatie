@@ -3,7 +3,7 @@ let respecConfig = {
 //  useLabel: true,
 //  license: "eupl",
   shortName: "Respec-template",
-  pubDomain: "hl",
+  pubDomain: "pr",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-types
   specType: "PR",
@@ -69,6 +69,16 @@ let respecConfig = {
     ],
   editors:
     [
+      {
+        name: "Marc van Andel",
+        company: "Kadaster",
+        companyURL: "https://kadaster.nl",
+      },
+      {
+        name: "Ivo Hendriks",
+        company: "VNG Realisatie",
+        companyURL: "https://vng.nl/artikelen/vng-realisatie",
+      }
       
     ],
   gitlab: "https://gitlab.com/Uitbetrouwbarebron",
