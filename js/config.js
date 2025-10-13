@@ -6,7 +6,7 @@ let respecConfig = {
   pubDomain: "hl",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-types
-  specType: "HL",
+  specType: "PR",
   
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-statussen
   specStatus: "IO",
