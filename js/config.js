@@ -10,16 +10,16 @@ let respecConfig = {
   
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane specificatie-statussen
   specStatus: "IO",
-  publishDate: "2024-05-16",
-  publishVersion: "0.2.0",
+  publishDate: "2025-10-13",
+  publishVersion: "0.0.1",
 
   // Zie de globale property 'localizationStrings/nl' voor de lijst met toegestane maturities
   //previousMaturity: "IO",
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Respec documentatie generatie",
-  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
+  title: "Handreiking \"Hoe bouw ik een register\"",
+  subtitle: "Richtlijnen en adviezen voor het bouwen van een capabel register",
   content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
 //    [
