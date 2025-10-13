@@ -5,7 +5,7 @@ var organisationConfig = {
     // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
     // Er is voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
     logos: [{
-        src: "https://https://website-digilab-overheid-nl-research-uit-betrouw-e1f39021ce924c.gitlab.io/img/ubblogo.png",
+        src: "https://website-digilab-overheid-nl-research-uit-betrouw-e1f39021ce924c.gitlab.io/img/ubblogo.png",
         alt: "Uit betrouwbare bron",
         id: "Uitbetrouwbarebron",
         height: 77,
