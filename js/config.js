@@ -32,12 +32,43 @@ let respecConfig = {
   editors:
     [
       {
-        name: "Robert Melskens",
+        name: "Marc van Andel",
+        company: "Kadaster",
+        companyURL: "https://kadaster.nl",
+      },
+      {
+        name: "Ivo Hendriks",
+        company: "VNG Realisatie",
+        companyURL: "https://vng.nl/artikelen/vng-realisatie",
+      },
+      {
+        name: "Jeanot Bijpost",
+        company: "VNG Realisatie",
+        companyURL: "https://vng.nl/artikelen/vng-realisatie",
+      },
+      {
+        name: "Johan Boer",
+        company: "VNG Realisatie",
+        companyURL: "https://vng.nl/artikelen/vng-realisatie",
+      },
+            {
+        name: "Roel Harbers",
+        company: "Uit betrouwbare bron",
+        companyURL: "https://uitbetrouwbarebron.nl",
+      },
+      {
+        name: "Thom Bogers",
+        company: "Uit betrouwbare bron",
+        companyURL: "https://uitbetrouwbarebron.nl",
+      },
+      {
+        name: "Boris Bonsel",
         company: "VNG Realisatie",
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
+
     ],
-  github: "https://github.com/VNG-Realisatie/VNG-R-Respec-Template",
+  gitlab: "https://gitlab.com/Uitbetrouwbarebron",
 
   //  maxTocLevel: 2,
 
@@ -45,7 +76,7 @@ let respecConfig = {
   alternateFormats: [
       {
           label: "pdf",
-          uri: "hl-Respec-template-0.2.0.pdf",
+          uri: "handreiking-register",
   //        uri: "Respec-bij-VNG-R.pdf",
       },
     ],
