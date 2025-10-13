@@ -66,7 +66,10 @@ let respecConfig = {
         company: "VNG Realisatie",
         companyURL: "https://vng.nl/artikelen/vng-realisatie",
       }
-
+    ],
+  editors:
+    [
+      
     ],
   gitlab: "https://gitlab.com/Uitbetrouwbarebron",
 

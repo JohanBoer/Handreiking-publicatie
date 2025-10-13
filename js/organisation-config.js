@@ -1,11 +1,11 @@
 var organisationConfig = {
-    nl_organisationName: "VNG Realisatie",
+    nl_organisationName: "Uit betrouwbare bron ",
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
     nl_organisationPublishURL: "https://JohanBoer.github.io/handreiking",
     // Het hier gedefinieerde logo wordt helemaal bovenaan het Respec document aan de rechterzijde geplaatst.
     // Er is voor gekozen de 'width' property niet te gebruiken waardoor het logo automatisch in de juiste verhoudingen wordt geplaatst.
     logos: [{
-        src: "https://vng-realisatie.github.io/VNG-R-Respec-Organization-configurations/media/logo-VNG-Realisatie.ico",
+        src: "https://https://website-digilab-overheid-nl-research-uit-betrouw-e1f39021ce924c.gitlab.io/img/ubblogo.png",
         alt: "Uit betrouwbare bron",
         id: "Uitbetrouwbarebron",
         height: 77,
