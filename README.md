@@ -1,6 +1,6 @@
-| Eigenaar | Ingevuld door |
-| --- | --- |
-| Kennis centrum Architectuur | Robert Melskens |
+| Eigenaar | 
+| --- |
+| Projectteam "Uit betrouwbare bron" |
 <hr/>
 
 ## ReSpec template instructies
