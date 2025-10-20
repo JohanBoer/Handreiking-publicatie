@@ -1,9 +1,9 @@
----
-title: De omgeving en grenzen van een register
-draft: true
-description: Wat is de omgeving van een register en waar liggen de grenzen van een register?
-preliminary: true
----
+// ---
+// title: De omgeving en grenzen van een register
+// draft: true
+// description: Wat is de omgeving van een register en waar liggen de grenzen van een register?
+// preliminary: true
+// ---
 
 # De omgeving en grenzen van een register
 
