@@ -27,7 +27,7 @@ De **_common ground_** - wat gemeenschappelijk is - ligt bij het domeinmodel: we
 zijn binnen een domein en welke gevolgen deze hebben. Dit zorgt voor interoperabiliteit terwijl
 gemeenten hun autonomie behouden.
 
-Gemeenten zijn gebruikt hier als voorbeeld, want dit geldt voor alle organisaties waar autonomie en
+Gemeenten zijn hier gebruikt als voorbeeld, want dit geldt voor alle organisaties waar autonomie en
 gemeenschappelijkheid een rol spelen, oftewel een gedeeld domein betreffen.
 
 ## Registergrenzen: domein
@@ -36,10 +36,10 @@ Een register is een verzameling geordende informatie. De grenzen van de verzamel
 de betekenis en samenhang van de in het register opgeslagen informatie bepaald vanuit het **domein**
 dat voor het register verantwoordelijk is. Anders dan in de
 [wiskunde](https://nl.wikipedia.org/wiki/Domein_(wiskunde)) kunnen we voor registers niet precies
-aangeven waar het ene domein ophoudt en het volgende begint. Analoog aan de definitie van [Eric
-Evans in de context van Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
-beschouwen we een domein daarom als "een sfeer van kennis, invloed of activiteit". Deze definitie
-veronderstelt een zekere mate van samenhang. Tegelijkertijd kan het binnen één domein voorkomen dat:
+aangeven waar het ene domein ophoudt en het volgende begint. Analoog aan de definitie van
+[[domain-driven-design#the-blue-book|Eric Evans in de context van Domain Driven Design]] beschouwen
+we een domein daarom als "een sfeer van kennis, invloed of activiteit". Deze definitie veronderstelt
+een zekere mate van samenhang. Tegelijkertijd kan het binnen één domein voorkomen dat:
 
 - dezelfde concepten verschillend geïnterpreteerd worden,
 - regels en gedrag niet consistent zijn, en
@@ -48,8 +48,7 @@ veronderstelt een zekere mate van samenhang. Tegelijkertijd kan het binnen één
 Voor wie zoekt naar aanknopingpunten over welke informatie binnen 'hoort' binnen een te ontwerpen
 register en welke buiten de registergrenzen zou moeten vallen, biedt het denken in 'sferen'
 onvoldoende aanknopingspunten. Daarom introduceren we **bounded context** als begrenzend begrip. Ook
-dit concept is ontleend aan [Domain Driven
-Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+dit concept is ontleend aan [[domain-driven-design]].
 
 ## Bounded context
 
@@ -63,9 +62,8 @@ dus een voor betrokkenen herkenbare 'blauwdruk' van het taakgebied, die (onder a
 vormen voor het ontwerp van een register. Een in gemeenschappelijke taal ondubbelzinnig en
 samenhangend gemodelleerd taakgebied noemen we een '**bounded context**'.
 
-Het belang van het erkennen van bounded contexten wordt door Eric Evans in ['the Blue
-Book'](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/) als volgt
-beschreven:
+Het belang van het erkennen van bounded contexten wordt door Eric Evans in
+[[domain-driven-design#the-blue-book|'the Blue Book']] als volgt beschreven:
 
 > "A bounded context delimits the applicability of a particular model so that team members have a
 clear and shared understanding of what has to be consistent and how it relates to other contexts.
@@ -216,7 +214,7 @@ gevolgen.
 
 - _Presentatieopmaking_ creëert verschillende _Presentaties_ op basis van de gevolgen
 - Elke presentatie is afgestemd op specifieke informatiebehoeften volgens _Presentatiedefinities_ en
-  _Presentatieverwerkingsregels_ uit het domeinmodel
+  _Effectverwerkingsregels_ uit het domeinmodel
 - Presentaties kunnen als nieuwe signalen dienen voor vervolgprocessen in eigen of andere domeinen
 
 ## Applicatieve ondersteuning met het register
@@ -224,7 +222,7 @@ gevolgen.
 Het uitvoeringsproces krijgt concrete vorm in een applicatiearchitectuur. Het register ondersteunt
 dit proces door de juiste componenten en datastromen in te richten. Ultiem is een (business)
 domeinmodel gelijk aan een register, één _bounded context_ met eigen regels en begrippen, zoals
-bedoeld in [[Domain-Driven Design]]. Veel vaker is het zo dat er meerdere bounded contexten te
+bedoeld in [[domain-driven-design]]. Veel vaker is het zo dat er meerdere bounded contexten te
 onderscheiden zijn in één business domeinmodel[^2]. Dit heeft te maken met verantwoordelijkheden en
 technologie _stacks_ en hebben vaak ook historische redenen; de verzameling van applicaties die door
 de tijd heen ontwikkeld zijn. Toch tekenen we hier de eenvoudige en ultieme situatie als
